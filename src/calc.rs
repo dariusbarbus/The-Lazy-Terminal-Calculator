@@ -37,6 +37,8 @@ fn help() {
         -   b 10 or b10
     x   :   Closes calculator
     e   :   Opens this menu
+
+    You can find more about the project at 
     "
     )
 }
