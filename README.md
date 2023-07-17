@@ -1,4 +1,7 @@
 # The LTC - Lazy Terminal Calculator
+
+**[Click here to read my blog post](https://dariusbarbus.github.io/contents/lazy-calc/)**
+
 The LTC is the all-in-one solution for your terminal calculating needs. It is perfect solution for every terminal user that needs a calculator, but dont want to be bother to open a new window in their i3 desktop. The LTC is fully writen in Rust, it ensures the latest and gratest technology from a few lines of code. 
 
 It follows the [B.O.D.M.A.S](https://www.mathsisfun.com/operation-order-bodmas.html) to ensure the most correct answers.
