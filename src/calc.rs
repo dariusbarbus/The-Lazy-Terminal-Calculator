@@ -7,20 +7,20 @@ pub fn calculator(conv: i32, eq: String) {
         let s = eq.replace('h', "");
         let s2 = s.trim();
         let num: i32 = s2.parse().unwrap();
-        println!("{:X}", num);
+        println!("= {:X}", num);
     //converts number (any format) to binary
     } else if conv == 2 {
         let s = eq.replace('b', "");
         let s2 = s.trim();
         let num: i32 = s2.parse().unwrap();
-        println!("{:b}", num);
+        println!("= {:b}", num);
     //Shows the help menu
     } else if conv == 3 {
         help();
     //Calculator
     } else if conv == 5 {
         let r = meval::eval_str(eq).unwrap();
-        println!("{}", r);
+        println!("= {}", r);
     }
 }
 
