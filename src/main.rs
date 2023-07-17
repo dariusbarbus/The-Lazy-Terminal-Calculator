@@ -1,4 +1,7 @@
+use crate::format::format_checker;
+
 mod calc;
+mod format;
 mod input;
 extern crate meval;
 
@@ -8,22 +11,26 @@ fn main() {
 
     let mut conv = 0;
 
-    while conv != 3 {
+    while conv != 4 {
         //displays inline and gets input
         let string = input::input();
+        conv = format_checker(&string); //change parameter to borrow instead of owning, maybe &?
 
-        match conv {
-            1 => {
-                conv = 1;
-            }
-            2 => {
-                conv = 2;
-            }
-            3 => {
-                conv = 3;
-            }
-            _ => {}
-        }
+        // match conv {
+        //     1 => {
+        //         conv = 1;
+        //     }
+        //     2 => {
+        //         conv = 2;
+        //     }
+        //     3 => {
+        //         conv = 3;
+        //     }
+        //     4 => {
+        //         conv = 4;
+        //     }
+        //     _ => {}
+        // }
 
         calc::calculator(conv, string);
     }
