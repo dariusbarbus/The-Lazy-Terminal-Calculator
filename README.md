@@ -1,5 +1,7 @@
 # The LTC - Lazy Terminal Calculator
-The LTC is the perfect solution for every terminal user that needs a calculator, but dont want to bother opening a new window in their tilling window manager. Fully writen in Rust, it ensures the latest and gratest technology from a few lines of code. 
+The LTC is the all-in-one solution for your terminal calculating needs. It is perfect solution for every terminal user that needs a calculator, but dont want to be bother to open a new window in their i3 desktop. The LTC is fully writen in Rust, it ensures the latest and gratest technology from a few lines of code. 
+
+It follows the [B.O.D.M.A.S](https://www.mathsisfun.com/operation-order-bodmas.html) to ensure the most correct answers.
 
 Works with your favorite Linux distrubtion 🐧. If you are using Windows please seek the help you need, in this guide you can find the first steps on become a new, better, happy geek. 
 
