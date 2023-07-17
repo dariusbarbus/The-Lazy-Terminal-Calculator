@@ -1,4 +1,3 @@
-//use std::io::{stdout, Write};
 extern crate meval;
 
 // Switches functionality between different modes
@@ -33,9 +32,11 @@ fn help() {
     ####################################
     
     h   :   Converts number to Hexadecimal
+        -   h 10 or h10
     b   :   Converts number to Binary
-
-
+        -   b 10 or b10
+    x   :   Closes calculator
+    e   :   Opens this menu
     "
     )
 }
